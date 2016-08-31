@@ -1,0 +1,9 @@
+prototype(TYPO3.Neos.NodeTypes:Page.Document) < prototype(Ttree.DemoPackage:DefaultPage) {
+    body {
+        content {
+            main = PrimaryContent {
+                nodePath = 'main'
+            }
+        }
+    }
+}
