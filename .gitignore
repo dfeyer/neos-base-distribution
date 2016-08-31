@@ -9,6 +9,8 @@
 /Packages/Framework
 /Packages/Plugins
 /Packages/Libraries
+/Packages/Sites/Ttree.DemoPackage/node_modules
+/Packages/Sites/Ttree.DemoPackage/Resources/Public/JavaScript/Vendor
 /Web/
 /bin/
 /Readme.txt
