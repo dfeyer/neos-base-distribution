@@ -1,0 +1,5 @@
+prototype(TYPO3.Neos:FallbackNode.Document) < prototype(Ttree.DemoPackage:DefaultPage) {
+    body {
+        templatePath = 'resource://Ttree.DemoPackage/Private/Templates/Page/TYPO3.Neos/FallbackNode.Document.html'
+    }
+}

@@ -1,0 +1,2 @@
+prototype(Ttree.DemoPackage:Page.Document) < prototype(Ttree.DemoPackage:DefaultPage) {
+}

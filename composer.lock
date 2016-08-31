@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d32dee0048f1a64a7daaf75419f9a51c",
-    "content-hash": "a67073ffc6a705357a320ee56020f8cc",
+    "hash": "06d6f28608f72168b3f871116282a7f1",
+    "content-hash": "4f1361778ef0d2c0971b110f6428a158",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2092,36 +2092,6 @@
             "time": "2015-05-10 20:10:53"
         },
         {
-            "name": "typo3/kickstart",
-            "version": "3.2.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/kickstart.git",
-                "reference": "312c5354a9c4802a868b3e196eb1dfc38abc5313"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/neos/kickstart/zipball/312c5354a9c4802a868b3e196eb1dfc38abc5313",
-                "reference": "312c5354a9c4802a868b3e196eb1dfc38abc5313",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/flow": "~3.2.0"
-            },
-            "type": "typo3-flow-framework",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Kickstart": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A simple generator for controller and views.",
-            "time": "2016-04-28 20:34:57"
-        },
-        {
             "name": "typo3/media",
             "version": "2.2.5",
             "source": {
@@ -2204,68 +2174,6 @@
             ],
             "description": "An open source Content Application Platform based on Flow. A set of core Content Management features is resting within a larger context that allows you to build a perfectly customized experience for your users.",
             "time": "2016-06-17 18:09:13"
-        },
-        {
-            "name": "typo3/neos-kickstarter",
-            "version": "2.2.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/neos-kickstarter.git",
-                "reference": "fa65aa394bfae454953eb0c9b2bef5500bd69628"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-kickstarter/zipball/fa65aa394bfae454953eb0c9b2bef5500bd69628",
-                "reference": "fa65aa394bfae454953eb0c9b2bef5500bd69628",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/kickstart": "~3.2.0",
-                "typo3/neos": "~2.2.0",
-                "typo3/neos-nodetypes": "~2.2.0"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Neos\\Kickstarter": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "A simple generator for Neos assets, like sites and plugins.",
-            "time": "2016-04-29 04:33:00"
-        },
-        {
-            "name": "typo3/neos-nodetypes",
-            "version": "2.2.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/neos-nodetypes.git",
-                "reference": "cac5faf3b68f85f09322effe324c85615800ba8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-nodetypes/zipball/cac5faf3b68f85f09322effe324c85615800ba8f",
-                "reference": "cac5faf3b68f85f09322effe324c85615800ba8f",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/neos": "~2.2.0"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Neos\\NodeTypes": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "Node type configuration for TYPO3 Neos",
-            "time": "2016-06-14 08:43:41"
         },
         {
             "name": "typo3/party",
