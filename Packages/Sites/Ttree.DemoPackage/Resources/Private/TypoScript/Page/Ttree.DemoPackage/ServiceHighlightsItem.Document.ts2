@@ -1,0 +1,5 @@
+prototype(Ttree.DemoPackage:ServiceHighlightsItem.Document) < prototype(Ttree.DemoPackage:DefaultPage) {
+    body {
+        templatePath = 'resource://Ttree.DemoPackage/Private/Templates/Page/Ttree.DemoPackage/BackendOnly.html'
+    }
+}

@@ -1,0 +1,5 @@
+prototype(Ttree.DemoPackage:BackendOnlyAccessForbiden) < prototype(TYPO3.TypoScript:Http.Message) {
+    httpResponseHead {
+        statusCode = 403
+    }
+}

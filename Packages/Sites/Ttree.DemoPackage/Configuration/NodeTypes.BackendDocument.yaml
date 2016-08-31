@@ -1,0 +1,32 @@
+'Ttree.DemoPackage:BackendDocumentMixin':
+  superTypes:
+    'Ttree.DemoPackage:Page': TRUE
+
+'Ttree.DemoPackage:ServiceHighlights':
+  ui:
+    label: 'Service Highlights'
+    icon: 'icon-th-large'
+  superTypes:
+    'Ttree.DemoPackage:BackendDocumentMixin': TRUE
+  properties:
+    title:
+      type: string
+      ui:
+        inspector:
+          position: 10
+    logline:
+      type: string
+      ui:
+        label: 'Service logine'
+        inspector:
+          group: document
+          position: 20
+          editorOptions:
+            placeholder: 'A short service description ...'
+
+'Ttree.DemoPackage:ServiceHighlightsItem':
+  ui:
+    label: 'Service Description'
+    icon: 'icon-file-text-o'
+  superTypes:
+    'Ttree.DemoPackage:Page': TRUE

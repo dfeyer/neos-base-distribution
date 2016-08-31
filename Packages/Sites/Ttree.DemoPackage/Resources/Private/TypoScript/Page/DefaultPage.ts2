@@ -21,6 +21,7 @@ prototype(Ttree.DemoPackage:DefaultPage) < prototype(Page) {
         // These are your content areas, you can define as many as you want, just name them and the nodePath.
         content {
             // The default content section
+            title = ${q(documentNode).property('title')}
             main = PrimaryContent {
                 nodePath = 'main'
             }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<f:section name="body">
+    <div class="content">
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">This page is only visible in the backend, you work on</div>
+                    <div class="intro-heading">"{content.title}"</div>
+                </div>
+            </div>
+        </header>
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="backend-editing-wrapper">
+                            {content.main -> f:format.raw()}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</f:section>

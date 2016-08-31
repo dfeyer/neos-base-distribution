@@ -1,6 +1,11 @@
 include: Page/**/*
 
 root {
+	backendOny {
+		@position = 'start'
+		condition = ${documentNode.context.inLive && q(node).is('[instanceof Ttree.DemoPackage:BackendDocumentMixin]')}
+		type = 'Ttree.DemoPackage:BackendOnlyAccessForbiden'
+	}
 	default {
 		type = ${q(node).property('_nodeType') + '.Document'}
 		renderPath >

@@ -1,0 +1,32 @@
+# Text mixin
+'Ttree.DemoPackage:TextMixin':
+  abstract: TRUE
+  properties:
+    text:
+      type: string
+      defaultValue: ''
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          placeholder: 'Start writting text, with our visitor in mind ...'
+          autoparagraph: TRUE
+          'format':
+            'strong': TRUE
+            'em': TRUE
+            'u': FALSE
+            'sub': FALSE
+            'sup': FALSE
+            'del': FALSE
+            'p': TRUE
+            'h1': FALSE
+            'h2': FALSE
+            'h3': FALSE
+            'pre': FALSE
+            'removeFormat': TRUE
+          'table':
+            'table': FALSE
+          'list':
+            'ol': TRUE
+            'ul': TRUE
+          'link':
+            'a': TRUE

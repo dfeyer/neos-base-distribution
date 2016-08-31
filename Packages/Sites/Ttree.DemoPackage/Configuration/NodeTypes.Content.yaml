@@ -1,0 +1,8 @@
+'Ttree.DemoPackage:Text':
+  superTypes:
+    'TYPO3.Neos:Content': TRUE
+    'Ttree.DemoPackage:TextMixin': TRUE
+  ui:
+    label: 'Text'
+    icon: 'icon-file-text'
+    position: 200
