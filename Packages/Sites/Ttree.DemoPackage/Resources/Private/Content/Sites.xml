@@ -2,35 +2,26 @@
 <root>
  <site name="Demo Site by ttree" state="1" siteResourcesPackageKey="Ttree.DemoPackage" siteNodeName="demopackage">
   <nodes formatVersion="2.0">
-   <node nodeName="demopackage">
-    <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-     
-     </dimensions>
+   <node identifier="3fcdfa32-068d-4487-ac72-7438f336a33f" nodeName="demopackage">
+    <variant sortingIndex="100" workspace="live" nodeType="Ttree.DemoPackage:Page" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2016-08-31T09:07:53+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2016-08-31T11:20:25+02:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2016-08-31T11:20:25+02:00</lastPublicationDateTime>
      <properties>
-      <title __type="string">Home</title>
+      <title __type="string">Start from Scratch Workshop</title>
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="TYPO3.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-      
-      </dimensions>
+    <node identifier="4f577043-c240-47ff-9974-c3b023638eb5" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-08-31T09:07:53+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-08-31T09:07:53+02:00</lastModificationDateTime>
+      <properties/>
      </variant>
-     <node nodeName="text1">
-      <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-       
-       </dimensions>
-       <accessRoles __type="array"/>
-       <properties>
-        <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
-       </properties>
-      </variant>
-     </node>
     </node>
    </node>
   </nodes>
