@@ -1,20 +1,14 @@
 Upgrading instructions
 ======================
 
-This file contains instructions for upgrading your Flow 3.1 based
-applications to Flow 3.2.
+This file contains instructions for upgrading your Flow 3.2 based
+applications to TYPO3 Flow 3.3.
 
 What has changed
 ----------------
 
-There haven’t been API changes in Flow 3.2 which require your code to be adjusted. But the package management has
-been refactored. This change is considered breaking due to the following:
-
-- New packages are only automatically picked up if they were installed via composer or created through the Flow package management. In all other cases you need to run the: package:rescan command to pick new package up.
-- Some @api classes and methods were deprecated and will be removed or changed in the next major Flow version.
-- Some newly added methods of PackageManager and Package are used in the Flow core now, so if someone would reimplement both according to interface it would not work with Flow, but that is already the case without this change, so it shouldn’t be an issue.
-
-A more detailed overview of what is new can be found in the `3.2 release notes <http://flowframework.readthedocs.io/en/3.2/TheDefinitiveGuide/PartV/ReleaseNotes/320.html>`_.
+The most important change relevant for upgrading is https://github.com/neos/flow-development-collection/pull/130
+Make sure to run code migrations and check the changed provider patterns.
 
 Upgrading your Packages
 -----------------------
@@ -79,7 +73,7 @@ Famous last words
 In a nutshell, running::
 
  ./flow core:migrate
- ./flow doctrine:migrationgenerate
+ ./flow doctrine:migrate
 
 in *Development Context*, padded with some manual checking and adjustments needs to be done.
 That should result in a working package.
